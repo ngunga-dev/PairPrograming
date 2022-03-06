@@ -1,0 +1,14 @@
+@import
+    './reset';
+
+    @import
+    './Components/header/header',
+    './Components/footer/footer';
+
+@import
+    './Pages/Cart/cart',
+    './Pages/Home/home',
+    './Pages/List/list',
+    './Pages/Login/login',
+    './Pages/Product/product',
+    './Pages/Register/register';

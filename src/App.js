@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "./Components/header/header";
+import Footer from "./Components/footer/footer";
 
-const App = () => {
-  return <div>oi</div>;
-};
+function App() {
+  return (
+      <div className='App'>
+          <Header />
+          <Footer />
+      </div>
+  );
+}
 
 export default App;

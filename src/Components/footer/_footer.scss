@@ -1,0 +1,20 @@
+.footer {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    color: #4F4F4F;
+    a {
+        color: #4F4F4F;
+        text-decoration: none;
+        font-weight: bold;
+        transition: .2s; // takes 0.2 seconds remove hover
+        &:hover {
+            color: #1c1c1c;
+            transition: .2s; // takes 0.3 seconds show hover style
+        }
+    }
+}
