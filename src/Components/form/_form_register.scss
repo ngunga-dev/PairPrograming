@@ -1,8 +1,8 @@
 .form_box {
-  background-color: red;
+  background-color: $color-background;
   padding: 40px;
   .form_register {
-    background-color: blue;
+    background-color: $color-base;
     margin: 0px auto;
     padding: 50px;
     width: 100%;
