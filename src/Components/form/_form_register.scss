@@ -1,20 +1,63 @@
-.footer {
+.form_box {
+  background-color: red;
+  padding: 40px;
+  .form_register {
+    background-color: blue;
     margin: 0px auto;
-    padding: 20px;
-    background-color: #f0f0f0;
+    padding: 50px;
+    width: 100%;
+    max-width: 600px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    color: #4F4F4F;
-    a {
-        color: #4F4F4F;
-        text-decoration: none;
-        font-weight: bold;
-        transition: .2s; // takes 0.2 seconds remove hover
-        &:hover {
-            color: #1c1c1c;
-            transition: .2s; // takes 0.3 seconds show hover style
-        }
+    color: #fff;
+    h2 {
+      text-transform: uppercase;
     }
+    .form-items {
+      color: yellow;
+      display: block;
+      margin: 20px auto;
+      select{
+        padding: 10px;
+        margin: 4px;
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 100%;
+        :nth-child(n) {
+            color: #000;
+          }
+      }
+      input {
+        padding: 10px;
+        margin: 4px;
+        font-size: 16px;
+        background-color: #086100;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 100%;
+        &::placeholder {
+          color: #fff;
+        }
+        &[type="submit"] {
+          font-weight: bold;
+          font-size: 16px;
+          background-color: #fff;
+          color: #003764;
+          transition: 0.3s;
+          &:hover {
+            transition: 0.3s;
+            background-color: #cbe7ff;
+            color: #003764;
+            border: #cbe7ff 1px solid;
+            cursor: pointer;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+          }
+        }
+      }
+    }
+  }
 }

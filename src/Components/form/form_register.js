@@ -4,7 +4,7 @@ function FormRegister () {
           <div className="form_register">
             <form action="" method="">
               <h2>Register Product</h2>
-              <div className="form-Items">
+              <div className="form-items">
                 <input type="text" name="product_name" placeholder="Product Name" required/>
                 <input type="file" name="product_image" placeholder="Product Image" required/>             
                 <input type="text" name="product_description" placeholder="Product Description" required/>

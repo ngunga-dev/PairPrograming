@@ -23,6 +23,70 @@ img {
   text-align: center;
 }
 
+.form_box {
+  background-color: red;
+  padding: 40px;
+}
+.form_box .form_register {
+  background-color: blue;
+  margin: 0px auto;
+  padding: 50px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+}
+.form_box .form_register h2 {
+  text-transform: uppercase;
+}
+.form_box .form_register .form-items {
+  color: yellow;
+  display: block;
+  margin: 20px auto;
+}
+.form_box .form_register .form-items select {
+  padding: 10px;
+  margin: 4px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 100%;
+}
+.form_box .form_register .form-items select :nth-child(n) {
+  color: #000;
+}
+.form_box .form_register .form-items input {
+  padding: 10px;
+  margin: 4px;
+  font-size: 16px;
+  background-color: #086100;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 100%;
+}
+.form_box .form_register .form-items input::placeholder {
+  color: #fff;
+}
+.form_box .form_register .form-items input[type=submit] {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #fff;
+  color: #003764;
+  transition: 0.3s;
+}
+.form_box .form_register .form-items input[type=submit]:hover {
+  transition: 0.3s;
+  background-color: #cbe7ff;
+  color: #003764;
+  border: #cbe7ff 1px solid;
+  cursor: pointer;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+}
+
 .footer {
   margin: 0px auto;
   padding: 20px;
