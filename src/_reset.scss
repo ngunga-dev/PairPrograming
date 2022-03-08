@@ -1,18 +1,39 @@
+/*------reset CSS------*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, li, a {
+          text-decoration: none;
+          list-style: none;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+/*------colors------*/
+  $color-primary: #F0f0f0;
+  $color-secondary: #FFF;
+  $color-background: #c0c0c0;
+
+  $color-base: rgb(92, 92, 92);
   
-  ul,
-  li,
-  a {
-    text-decoration: none;
-    list-style: none;
-  }
+  $color-title1: #777;
+  $color-title2: #777;
+  $color-title3: #777;
   
-  img {
-    max-width: 100%;
-    display: block;
-  }
+  $color-p: #777;
+  $color-hover: #000;
+  
+/*------font size------*/
+  $fontsize1: 16px;  
+  $fontsize2: 18px;  
+  $fontsize3: 20px;  
+  $fontsize4: 24px;  
+  
+/*------font size------*/
